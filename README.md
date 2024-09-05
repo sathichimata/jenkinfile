@@ -20,7 +20,7 @@ pipeline{
             steps{
             gitCheckout(
                 branch: "main",
-                url: "https://github.com/sathichimata/git.git"
+                url: "https://github.com/sathichimata/tools_installation_scripts-jenkins.sh.git"
             )
             }
         }
